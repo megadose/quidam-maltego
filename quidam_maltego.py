@@ -11,7 +11,7 @@ mt = MaltegoTransform()
 info = instagram(username)
 if '"status"' not in info:
     if info !="lien":
-        mt.addEntity("maltego.Email"," instagram "+info)
+        mt.addEntity("maltego.EmailAddress"," instagram "+info)
     else:
         mt.addEntity("maltego.Phrase","Not informations found in Instagram")
 else:
@@ -21,9 +21,9 @@ else:
 info = twitter(username)
 if len(info)==2:
     mt.addEntity("maltego.PhoneNumber","0X XX XX XX "+str(info["phone"]))
-    mt.addEntity("maltego.Email","Twitter "+info["email"])
+    mt.addEntity("maltego.EmailAddress","Twitter "+info["email"])
 elif len(info)==1 :
-    mt.addEntity("maltego.Email","Twitter "+info["email"])
+    mt.addEntity("maltego.EmailAddress","Twitter "+info["email"])
 else:
     mt.addEntity("maltego.Phrase","Not informations found in Twitter")
 
@@ -32,6 +32,6 @@ if len(info)==0:
     mt.addEntity("maltego.Phrase","Not informations found in github")
 else:
     for e in info:
-        mt.addEntity("maltego.Email",""+e["email"]+" for "+e["name"] +"in github")
+        mt.addEntity("maltego.EmailAddress",""+e["email"]+" for "+e["name"] +"in github")
 
 mt.returnOutput()
