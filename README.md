@@ -13,7 +13,7 @@ Permet d'utiliser [quidam](https://github.com/megadose/quidam/) avec maltego
 #### Ensuite remplir
 ![alt text](https://raw.githubusercontent.com/megadose/quidam-maltego/master/installation_image/part.png?raw=true)
 #### Puis pour finir
-![alt text](https://raw.githubusercontent.com/megadose/quidam-maltego/master/installation_image/part1.png?raw=true)
+![alt text](https://raw.githubusercontent.com/megadose/quidam-maltego/master/installation_image/part2.png?raw=true)
 
 
 ## :chart_with_upwards_trend:Demo
