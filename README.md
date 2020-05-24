@@ -4,7 +4,7 @@ Allows you to use [quidam](https://github.com/megadose/quidam/) with maltego
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
-## 💡 Prérequis
+## 💡 Prerequisite
 [Python 3](https://www.python.org/downloads/)
    
 ## 🛠️ Installation
