@@ -1,18 +1,18 @@
 # Quidam maltego
 # Educational purposes only
-Permet d'utiliser [quidam](https://github.com/megadose/quidam/) avec maltego
+Allows you to use [quidam](https://github.com/megadose/quidam/) with maltego
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
 ## 💡 Prérequis
-   [Python 3](https://www.python.org/downloads/)
+[Python 3](https://www.python.org/downloads/)
    
 ## 🛠️ Installation
-####  Il faut commencer par clicker sur 
+####  You have to start by clicking on 
 ![alt text](https://raw.githubusercontent.com/megadose/quidam-maltego/master/installation_image/NewLocal.png?raw=true)
-#### Ensuite remplir
+#### Then fill in
 ![alt text](https://raw.githubusercontent.com/megadose/quidam-maltego/master/installation_image/part.png?raw=true)
-#### Puis pour finir
+#### Then finally
 ![alt text](https://raw.githubusercontent.com/megadose/quidam-maltego/master/installation_image/part2.png?raw=true)
 
 
